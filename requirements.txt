@@ -1,0 +1,9 @@
+pure-python-adb
+lxml
+xmpppy
+uiautomator2
+pyyaml
+python-i18n @ git+https://github.com/Vin-Ren/python-i18n@4d45815442d83b35f7417a1cfb5cb8700326e8ec
+fastapi_class @ git+https://github.com/yezz123/fastapi-class.git@2fee852ff822aba132ccbfaf4e30a616a89c7089
+uvicorn[standard]
+python-multipart

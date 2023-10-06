@@ -1,0 +1,83 @@
+{
+    "TK8": {
+        "matchers": [
+            {
+                "name": "Data 10GB",
+                "description": "Paket Data 8 GB + 2 GB Video, berlaku 30 Hari",
+                "price": "Rp 85.000",
+                "exec_flag": 0
+            }
+        ]
+    },
+    "TK12": {
+        "matchers": [
+            {
+                "name": "Data 14GB",
+                "description": "Paket Data 12 GB + 2 GB Video, berlaku 30 Hari",
+                "price": "Rp 100.000",
+                "exec_flag": 0
+            }
+        ]
+    },
+    "TN1": {
+        "matchers": [
+            {
+                "name": "Paket Bicara semua operator 1 hari",
+                "description": "Paket Bicara semua operator 1 hari sesuai zona, cek zona di *363*46#",
+                "price": "Rp 10.500",
+                "exec_flag": 0
+            }
+        ]
+    },
+    "TN3": {
+        "matchers": [
+            {
+                "name": "[BEST SELLER] Paket Bicara semua operator 3 hari",
+                "description": "Paket Bicara semua operator 3 hari sesuai zona, cek zona di *363*46#",
+                "price": "Rp 20.400",
+                "exec_flag": 0
+            }
+        ]
+    },
+    "TN7": {
+        "matchers": [
+            {
+                "name": "[BEST SELLER] Paket Bicara semua operator 7 hari",
+                "description": "Paket Bicara semua operator 7 hari sesuai zona, cek zona di *363*46#",
+                "price": "Rp 25.400",
+                "exec_flag": 0
+            }
+        ]
+    },
+    "TN30": {
+        "matchers": [
+            {
+                "name": "Paket Nelpon Telkomsel 100000",
+                "description": "Paket Nelpon 2000 menit ke sesama Tsel + 100 menit ke semua operator, masa aktif 30 hari. Kuota sesuai zona user, cek di *363*46#",
+                "price": "Rp 101.000",
+                "exec_flag": 0
+            }
+        ],
+        "location_near_bottom": true
+    },
+    "TN30_": {
+        "matchers": [
+            {
+                "name": "Paket Bicara Sesama Telkomsel 30 Hari",
+                "description": "Nelpon ke sesama Telkomsel hingga 10100 menit. Masa aktif 30 hari. ( tergantung zona). Cek kuota di *363*46#",
+                "price": "Rp 107.000",
+                "exec_flag": 0
+            }
+        ]
+    },
+    "TI20": {
+        "matchers": [
+            {
+                "name": "500 MB semua jaringan + bebas zona",
+                "description": "500 MB semua jaringan + bebas zona, masa aktif 30 hari",
+                "price": "Rp 14.900",
+                "exec_flag": 0
+            }
+        ]
+    }
+}

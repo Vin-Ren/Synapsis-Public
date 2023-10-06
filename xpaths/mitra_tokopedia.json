@@ -1,0 +1,40 @@
+{
+    "SPLASH_SCREEN_VIEW": "//node[@resource-id='com.tokopedia.kelontongapp:id/layout_splash']",
+    "DASHBOARD_BOTTOM_NAVIGATION_ITEM": "//node[node[@text='Beranda']]",
+    "DASHBOARD_BOTTOM_NAVIGATION_HOME_MENU": "//node[@resource-id='tabHomeBeranda']",
+    "GOPAY_COINS": "//node[@resource-id='gopay-coins']",
+    "GOPAY_BALANCE": "//node[@resource-id='gopay-coins']/node[@index='1']",
+    "NUMBER_INPUT_PAD": "//node[@resource-id='android:id/inputArea']",
+    "NUMBER_INPUT_PAD_ENTER": "//node[@resource-id='com.google.android.inputmethod.latin:id/key_pos_ime_action']",
+    "NUMBER_INPUT_BOX": "//node[@class='android.widget.EditText']",
+    "EMPTY_NUMBER_INPUT_BOX": "//node[@class='android.widget.EditText' and @text='']",
+
+    "PRODUCTS_SCROLLABLE": "//node[@class='android.widget.RelativeLayout']//node[@resource-id='content']",
+    "PRODUCT": "//node[@class='android.widget.RelativeLayout']//node[@resource-id='content']/node",
+
+    "PRODUCT_NAME": "./node[@index='0']",
+    "PRODUCT_DESCRIPTION": "./node[@index='2']",
+    "PRODUCT_PRICE": "./node[@index='1']",
+    
+    "PRODUCT_SPECIAL_INFO": "./node[@index='5']/node",
+    "PRODUCT_PROMO_TEXT": "./node[@index='5']/node[@text='Promo']",
+    "PRODUCT_NEW_TEXT": "./node[@index='5']/node[@text='Baru']", 
+    "PRODUCT_OUT_OF_STOCK": "./node[@index='5']/node[@text='Habis']", 
+    
+    "PRODUCT_NAME_PROMO": "./node[@index='0']",
+    "PRODUCT_DESCRIPTION_PROMO": "./node[@index='4']",
+    "PRODUCT_PRICE_PROMO": "./node[@index='1']",
+    "PRODUCT_ORIGINAL_PRICE_PROMO": "./node[@index='3']",
+    
+    "PROMO_BUTTON": "//node[node/node[@text='Gunakan kode promo' or @text='Punya kode promo atau kupon?']]",
+    "SELECT_PAYMENT_OPTION_BUTTON": "//node[@class='android.widget.Button' and @text='Pilih Pembayaran']",
+    "CONFIRMATION_TOTAL_PAYMENT_PARENT_NODE": "//node[node[@text='Total Tagihan']]",
+    "QUICKPAY_BUTTON": "//node[@resource-id='btn-quickpay-pay']",
+    "PIN_INPUT_BOX": "//node[@class='android.widget.EditText']",
+    "PIN_CONFIRM_BUTTON": "//node[@resource-id='PreAuth PIN']",
+    "ATUR_HARGA_JUAL": "//node[@resource-id='btnRevenueAction']",
+    "TRANSACTION_STATUS_TX_PARENT_NODE": "//node[node[@text='status-tx']]",
+    "TRANSACTION_RESULT_SERIAL_NUMBER": "//node[@resource-id='invoice-value-Serial Number']",
+    "TRANSACTION_RESULT_BACK_BUTTON": "//node[@resource-id='btnThankYouHomepage']",
+    "BACKSPACE_BUTTON": "//node[@resource-id='com.google.android.inputmethod.latin:id/key_pos_number_line3_4']"
+}

@@ -1,0 +1,82 @@
+{
+    "TN3": {
+        "matchers": [
+            {
+                "name": "400mnt/3 hari 3 Hari",
+                "description": "Contains('30 minute Voice All Operator + 370 minute Voice TSEL')",
+                "price": "Rp 23.200",
+                "exec_flag": 2
+            }
+        ],
+        "confirmation": [
+            {
+                "name": "Contains('400mnt/3 hari')",
+                "price": "Rp 23.200",
+                "exec_flag": 1
+            }
+        ]
+    },
+    "TN7": {
+        "matchers": [
+            {
+                "name": "Paket Nelpon Sakti 7 Hari",
+                "description": "ContainsAny(['Sepuasnya Voice TSEL', '10000 minute Voice TSEL'])",
+                "price": "PriceInBetween('Rp 4.000', 'Rp 36.000', getPrice)",
+                "exec_flag": 6
+            },
+            {
+                "name": "Nelpon Pas - Pulsa nelpon semua operator 7 Hari",
+                "description": "ContainsAny(['Unlimited Voice TSEL', '10000 minute Voice TSEL'])",
+                "price": "PriceInBetween('Rp 4.000', 'Rp 36.000', getPrice)",
+                "exec_flag": 6
+            }
+        ],
+        "confirmation": [
+            {
+                "name": "ContainsAny(['Paket Nelpon Sakti/7 hr', 'Paket Nelpon Sakti 7 Hari', '600mnt/7 hari', 'Nelpon Pas - Pulsa nelpon semua operator 7 Hari'])",
+                "price": "PriceInBetween('Rp 4.000', 'Rp 36.000', getPrice)",
+                "exec_flag": 5
+            }
+        ]
+    },
+    "TN15": {
+        "matchers": [
+            {
+                "name": "Paket Nelpon 15 Hari",
+                "description": "Contains('1100 minute Voice TSEL + 100 minute Voice All Operator')",
+                "price": "PriceInBetween('Rp 53.000', 'Rp 53.500', getPrice)",
+                "exec_flag": 6
+            }
+        ],
+        "confirmation": [
+            {
+                "name": "Contains('Paket Nelpon 15 Hari')",
+                "price": "PriceInBetween('Rp 53.000', 'Rp 53.500', getPrice)",
+                "exec_flag": 5
+            }
+        ]
+    },
+    "TN30": {
+        "matchers": [
+            {
+                "name": "Paket Nelpon Sakti 30 Hari",
+                "description": "Contains('40000 minute Voice TSEL')",
+                "price": "PriceInBetween('Rp 20.000', 'Rp 124.000', getPrice)",
+                "exec_flag": 6
+            },
+            {
+                "name": "Paket Nelpon 2,100mnt 30 Hari",
+                "description": "Contains('2100 minute Voice All Operator')",
+                "price": "PriceInBetween('Rp 20.000', 'Rp 124.000', getPrice)",
+                "exec_flag": 6
+            }
+        ],
+        "confirmation": [
+            {
+                "name": "ContainsAny(['Paket Nelpon Sakti 30 Hari', 'Paket Nelpon 2,100mnt 30 Hari'])",
+                "price": "PriceInBetween('Rp 20.000', 'Rp 124.000', getPrice)",
+                "exec_flag": 5
+            }
+        ]
+    }
+}

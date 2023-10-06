@@ -1,0 +1,61 @@
+database_filename: database.db
+keep_alive_sleep_duration: 10
+dummy_runtime: 5
+logging:
+  filename: logs/logs.log
+  maxMB: 10
+  backupCount: 5
+api:
+  host: "0.0.0.0"
+  port: 8080
+  config_filename: 'config.yaml' # For ConfigurationRouter
+  config_file_format: 'yaml' # yaml/json
+  uvicorn_opts:
+    reload: false # placeholder to make uvicorn_opts as mapping type
+server_manager:
+  keep_alive_sleep_duration: 10
+  jabber:
+    keep_alive_sleep_duration: 10
+    credential_list: []
+middlewares:
+  automator_prefix_mapping:
+    L: linkaja
+    D: digipos
+    M: mitra_tokopedia
+  translator_config:
+    namespace: replies
+    locale: id
+device_manager:
+  adb_path: adb
+  adb_host: "127.0.0.1"
+  adb_port: 5037
+  device_polling_rate: 5
+  use_interruptible_runner: true
+  interruptible_runner_polling_rate: 0.1
+  device:
+    request_polling_rate: 1.5
+    default_automator: linkaja
+    enable_profiler: false
+    automators:
+      linkaja:
+        xpath: xpaths/linkaja.json
+        product_list: products/linkaja.json
+        translator_config:
+          namespace: automators
+          locale: id
+        pin: ''
+      digipos:
+        xpath: xpaths/digipos.json
+        product_list: products/digipos.json
+        translator_config:
+          namespace: automators
+          locale: id
+        pin: ''
+      mitra_tokopedia:
+        xpath: xpaths/mitra_tokopedia.json
+        product_list: products/mitra_tokopedia.json
+        skip_out_of_stock: false
+        translator_config:
+          namespace: automators
+          locale: id
+        pin: ''

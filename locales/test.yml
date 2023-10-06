@@ -1,0 +1,14 @@
+id:
+  test: "indo string test"
+  tc:
+    zero: "tiada"
+    one: "satu buah"
+    few: "sedikit"
+    many: "sangat banyak"
+en:
+  test: "english string test"
+  tc:
+    zero: "none"
+    one: "one piece"
+    few: "few pieces"
+    many: "lots of pieces"

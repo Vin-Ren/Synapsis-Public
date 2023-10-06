@@ -1,0 +1,22 @@
+en:
+  message_content: "{req.product_spec}.{req.number}"
+  transaction_enqueued: 'Transaction {message_content} has been received and is in queue.'
+  transaction_had_been_processed: 'Transaction {message_content} had been processed at {datetime}. {reply}'
+  transaction_is_being_processed: 'Transaction {message_content} is being processed.'
+  transaction_success: 'Transaction {message_content} SUKSES SN: {res.refID}'
+  transaction_success_no_ref_id: 'Transaction {message_content} SUKSES'
+  transaction_failed: 'Transaction {message_content} GAGAL. {reason}'
+  # transaction_failed: 'Transaksi {message_content} GAGAL Deskripsi:{res.description} Error:{res.error}'
+  user_not_registered: 'Please register yourself first.'
+  balance_suffix: 'Balance: {balance}'
+id:
+  message_content: "{req.product_spec}.{req.number}"
+  transaction_enqueued: 'Transaksi {message_content} sudah diterima dan sedang dalam antrian.'
+  transaction_had_been_processed: 'Transaksi {message_content} telah terjadi pada {datetime}. {reply}'
+  transaction_is_being_processed: 'Transaksi {message_content} sedang diproses.'
+  transaction_success: 'Transaksi {message_content} SUKSES SN: {res.refID}'
+  transaction_success_no_ref_id: 'Transaksi {message_content} SUKSES'
+  transaction_failed: 'Transaksi {message_content} GAGAL. {reason}'
+  # transaction_failed: 'Transaksi {message_content} GAGAL Deskripsi:{res.description} Error:{res.error}'
+  user_not_registered: 'Tolong registrasi diri anda dahulu.'
+  balance_suffix: 'Saldo: {balance}'

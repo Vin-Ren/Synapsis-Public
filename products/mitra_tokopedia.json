@@ -1,0 +1,78 @@
+{
+    "TN3": {
+        "matchers": [
+            {
+                "name": "Contains('Paket Bicara Semua Operator 20rb')",
+                "description": "ContainsAny([''])",
+                "price": "Rp19.980",
+                "exec_flag": 3
+            }
+        ]
+    },
+    "TN7": {
+        "matchers": [
+            {
+                "name": "Contains('Paket Bicara Semua Operator 7 Hari')",
+                "description": "ContainsAny([''])",
+                "price": "Rp24.850",
+                "exec_flag": 3
+            },
+            {
+                "name": "Contains('Bicara 375mnt-950mnt(Zona)')",
+                "description": "ContainsAny([''])",
+                "price": "Rp24.950",
+                "exec_flag": 3
+            }
+        ]
+    },
+    "1TN7": {
+        "matchers": [
+            {
+                "name": "Contains('Paket Bicara Semua Operator 25rb')",
+                "description": "ContainsAny([''])",
+                "price": "Rp24.850",
+                "exec_flag": 3
+            }
+        ]
+    },
+    "2TN7": {
+        "matchers": [
+            {
+                "name": "Contains('Bicara 375mnt-950mnt(Zona)')",
+                "description": "ContainsAny([''])",
+                "price": "Rp24.950",
+                "exec_flag": 3
+            }
+        ]
+    },
+    "TI10": {
+        "matchers": [
+            {
+                "name": "Contains('Flash 100MB')",
+                "description": "Contains('100MB All network, bebas zona')",
+                "price": "Rp5.000",
+                "exec_flag": 3
+            }
+        ]
+    },
+    "TI20": {
+        "matchers": [
+            {
+                "name": "Contains('Flash 500MB')",
+                "description": "Contains('500MB All network, bebas zona')",
+                "price": "Rp9.500",
+                "exec_flag": 3
+            }
+        ]
+    },
+    "TI25": {
+        "matchers": [
+            {
+                "name": "Contains('Flash 1GB')",
+                "description": "Contains('1GB All network, bebas zona')",
+                "price": "Rp19.800",
+                "exec_flag": 3
+            }
+        ]
+    }
+}
